@@ -14,10 +14,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'mail'`, () => {
+  it(`should have as title 'mail-di-arba'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('mail');
+    expect(app.title).toEqual('mail-di-arba');
   });
 
   it('should render title', () => {
@@ -27,3 +27,11 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('.content span')?.textContent).toContain('mail app is running!');
   });
 });
+
+
+
+
+
+
+  
+  

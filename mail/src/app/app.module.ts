@@ -8,7 +8,7 @@ import { MandaMailComponent } from './manda-mail/manda-mail.component';
 @NgModule({
   declarations: [
     AppComponent,
-    MandaMailComponent
+    MandaMailComponent,
   ],
   imports: [
     BrowserModule,

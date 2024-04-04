@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-manda-mail',
@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./manda-mail.component.css']
 })
 export class MandaMailComponent {
+  @Input() emails: any[] = [];
 
+  toggleEmail(index: number) {
+    this.emails[index].espansa = !this.emails[index].espansa;
+  }
+
+  evidenziaSpeciale(index: number) {
+    this.emails[index].evidenziato = !this.emails[index].evidenziato;
+  }
 }
+

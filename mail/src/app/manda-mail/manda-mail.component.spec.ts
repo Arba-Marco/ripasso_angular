@@ -19,3 +19,5 @@ describe('MandaMailComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+
+
